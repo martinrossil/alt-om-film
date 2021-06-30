@@ -1,6 +1,6 @@
 {
   "name": "alt-om-film",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Alt om film, Danmarks største film database.",
   "main": "index.js",
   "scripts": {
