@@ -1,2 +1,2 @@
 # alt-om-film
-Alt om film social network
+Alt om film, Danmarks største film database.

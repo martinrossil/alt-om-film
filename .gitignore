@@ -1,7 +1,0 @@
-node_modules/
-functions/src/Config.ts
-.firebase/
-development/
-public/
-*.log
-package-lock.json
