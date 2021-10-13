@@ -33,16 +33,17 @@ export default {
 };
 
 function getOutput(year) {
-    const output = {
+    return {
         entryFileNames: '[name].' + version + '.es' + year + '.js',
         dir: './public/',
         format: 'esm',
         plugins: [ getCompiler(year) ]
     }
-    return output;
 }
 
 function getCompiler(year) {
-    const ecma = 'ECMASCRIPT_' + year;
-    return compiler({ language_in: 'ECMASCRIPT_NEXT', compilation_level: 'SIMPLE', language_out: ecma })
+    return compiler({
+        language_in: 'ECMASCRIPT_NEXT',
+        compilation_level: 'ADVANCED',
+        language_out: 'ECMASCRIPT_' + year })
 }

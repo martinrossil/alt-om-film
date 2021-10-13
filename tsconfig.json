@@ -1,12 +1,12 @@
 {
     "compilerOptions": {
-        "target": "ESNext",
-        "module": "ESNext",
+        "target": "esnext",
+        "module": "esnext",
         "moduleResolution": "Node",
         "strict": true,
         "strictNullChecks": true,
         "noImplicitAny": true,
-        "sourceMap":  false,
+        "sourceMap": false,
         "removeComments": true,
         "allowSyntheticDefaultImports": true,
     },

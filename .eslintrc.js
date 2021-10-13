@@ -32,6 +32,7 @@ module.exports = {
         'prefer-spread': 'off',
         'no-useless-call': 'off',
         'no-unused-vars': 'off',
-        '@typescript-eslint/no-unused-vars': 'off'
+        '@typescript-eslint/no-unused-vars': 'off',
+        'dot-notation': 'off'
     }
 }

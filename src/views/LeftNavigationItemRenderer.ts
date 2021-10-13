@@ -29,10 +29,9 @@ export default class LeftNavigationItemRenderer extends ItemRenderer<IProviderIt
     private _label!: RegularLabel;
     private get label(): RegularLabel {
         if (!this._label) {
-            this._label = new RegularLabel();
+            this._label = new RegularLabel(14, Colors.WHITE);
             this._label.middleOffset = 0;
             this._label.letterSpacing = 0.5;
-            this._label.textColor = Colors.WHITE;
         }
         return this._label;
     }
