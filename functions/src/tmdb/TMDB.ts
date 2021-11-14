@@ -21,7 +21,7 @@ export default class TMDB implements ITMDB {
             if (error instanceof FetchError) {
                 return [null, new Error('TMDB fetch error')]
             }
-            return [null, error];
+            return [null, error as Error];
         }
     }
 }
