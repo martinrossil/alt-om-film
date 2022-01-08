@@ -1,4 +1,4 @@
-import { IItemRenderer, ILabelElement, ILinkContainer, ItemRenderer, LinkContainer, VerticalLayout } from 'enta'
+import { ILabelElement, ILinkContainer, ItemRenderer, LinkContainer, VerticalLayout } from 'enta'
 import RegularLabel from '../shared/RegularLabel';
 import Colors from '../theme/Colors';
 import Shadows from '../theme/Shadows';
